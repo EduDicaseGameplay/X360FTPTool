@@ -1,178 +1,148 @@
-# 🎮 X360 FTP Tool (Android)
+\# 🎮 X360 FTP Tool (Android)
 
-# 
 
-# Aplicativo Android para envio de arquivos via FTP para Xbox 360 com RGH, JTAG ou Exploit.
 
-# Permite transferir jogos, DLCs, Title Updates e arquivos personalizados diretamente do celular para o console pela rede local.
+Aplicativo Android para envio de arquivos via FTP para \*\*Xbox 360 com RGH, JTAG ou Exploit\*\*.
 
-# 
+Permite transferir jogos, DLCs, Title Updates e arquivos personalizados diretamente do celular para o console pela rede local.
 
-# 🚀 Funcionalidades
 
-# 
 
-# 📦 Envio de jogos em formato XEX
+---
 
-# 
 
-# 🎮 Envio de jogos no formato GOD
 
-# 
+\## 🚀 Funcionalidades
 
-# 📥 Envio automático de DLC
 
-# 
 
-# 🔄 Envio de Title Update (TU)
+\* 📦 Envio de jogos em formato \*\*XEX\*\*
 
-# 
+\* 🎮 Envio de jogos no formato \*\*GOD\*\*
 
-# 📁 Envio Custom de qualquer pasta
+\* 📥 Envio automático de \*\*DLC\*\*
 
-# 
+\* 🔄 Envio de \*\*Title Update (TU)\*\*
 
-# 🌐 Conexão via FTP (IP, usuário e senha configuráveis)
+\* 📁 Envio \*\*Custom\*\* de qualquer pasta
 
-# 
+\* 🌐 Conexão via FTP (IP, usuário e senha configuráveis)
 
-# 💾 Seleção do destino: Hdd1, Usb0, Usb1
+\* 💾 Seleção do destino: `Hdd1`, `Usb0`, `Usb1`
 
-# 
+\* 📊 Barra de progresso em tempo real
 
-# 📊 Barra de progresso em tempo real
+\* 🔔 Notificação ao concluir upload
 
-# 
+\* 🔤 Normalização automática de nomes de arquivos
 
-# 🔔 Notificação ao concluir upload
+\* 🛠 Mantém a tela ativa durante o envio
 
-# 
 
-# 🔤 Normalização automática de nomes de arquivos
 
-# 
+---
 
-# 🛠 Mantém a tela ativa durante o envio
 
-# 
 
-# 🧩 Requisitos
+\## 🧩 Requisitos
 
-# 
 
-# Xbox 360 com:
 
-# 
+\* Xbox 360 com:
 
-# RGH
 
-# 
 
-# JTAG
+&nbsp; \* RGH
 
-# 
+&nbsp; \* JTAG
 
-# Exploit
+&nbsp; \* Exploit
 
-# 
+\* Servidor FTP ativo no console (ex: Aurora ou XEXMenu)
 
-# Servidor FTP ativo no console (ex: Aurora ou XEXMenu)
+\* Celular Android na mesma rede local do Xbox
 
-# 
 
-# Celular Android na mesma rede local do Xbox
 
-# 
+---
 
-# ⚙️ Como usar
 
-# 
 
-# Ative o FTP no Xbox 360.
+\## ⚙️ Como usar
 
-# 
 
-# No app, configure:
 
-# 
+1\. Ative o FTP no Xbox 360.
 
-# IP do console
+2\. No app, configure:
 
-# 
 
-# Usuário
 
-# 
+&nbsp;  \* IP do console
 
-# Senha
+&nbsp;  \* Usuário
 
-# 
+&nbsp;  \* Senha
 
-# Escolha a aba correspondente (XEX, GOD, DLC, TU ou Custom).
+3\. Escolha a aba correspondente (XEX, GOD, DLC, TU ou Custom).
 
-# 
+4\. Selecione a pasta.
 
-# Selecione a pasta.
+5\. Escolha o dispositivo de destino.
 
-# 
+6\. Toque em \*\*Enviar\*\*.
 
-# Escolha o dispositivo de destino.
 
-# 
 
-# Toque em Enviar.
+O app exibirá o progresso e notificará quando concluir.
 
-# 
 
-# O app exibirá o progresso e notificará quando concluir.
 
-# 
+---
 
-# 🛠 Tecnologias
 
-# 
 
-# Kotlin
+\## 🛠 Tecnologias
 
-# 
 
-# Android SDK
 
-# 
+\* Kotlin
 
-# Apache Commons Net (FTPClient)
+\* Android SDK
 
-# 
+\* Apache Commons Net (FTPClient)
 
-# DocumentFile API
+\* DocumentFile API
 
-# 
 
-# 📌 Observações
 
-# 
+---
 
-# O envio é feito em modo binário (BINARY).
 
-# 
 
-# Arquivos são enviados mantendo estrutura de pastas.
+\## 📌 Observações
 
-# 
 
-# O app evita caracteres problemáticos nos nomes de arquivos.
 
-# 
+\* O envio é feito em modo binário (BINARY).
 
-# Projetado para uso em rede local.
+\* Arquivos são enviados mantendo estrutura de pastas.
 
-# 
+\* O app evita caracteres problemáticos nos nomes de arquivos.
 
-# ⚠️ Aviso
+\* Projetado para uso em rede local.
 
-# 
 
-# Este projeto é destinado apenas para uso em consoles modificados legalmente pelo proprietário.
 
-# O desenvolvedor não se responsabiliza por uso indevido.
+---
+
+
+
+\## ⚠️ Aviso
+
+
+
+Este projeto é destinado apenas para uso em consoles modificados legalmente pelo proprietário.
+
+O desenvolvedor não se responsabiliza por uso indevido.
 
